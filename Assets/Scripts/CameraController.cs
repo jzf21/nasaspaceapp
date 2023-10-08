@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         // Toggle camera movement when the 'W' key is pressed
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             canMove = !canMove;
         }
